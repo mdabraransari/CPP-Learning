@@ -9,7 +9,11 @@ private:
     int size() {return sz;}
 public:
     double* elem;
-    Vector(int s):elem{new double[s]}, sz{s} {}
+    Vector(int s)
+        :elem{new double[s]}, sz{s} 
+        {
+            
+        }
 };
 
 
