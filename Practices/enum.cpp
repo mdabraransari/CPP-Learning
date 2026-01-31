@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 enum class Color
 {
     red,
@@ -30,7 +29,7 @@ Traffic_light &operator++(Traffic_light &t)
     }
 }
 
-ostream &operator<<(ostream &os, Traffic_light t)
+std::ostream &operator<<(std::ostream &os, Traffic_light t)
 {
     switch (t)
     {
@@ -51,5 +50,5 @@ ostream &operator<<(ostream &os, Traffic_light t)
 
 int main(){
     Traffic_light next = ++light;
-    cout << next;
+    std::cout << next;
 }
