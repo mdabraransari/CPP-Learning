@@ -16,4 +16,18 @@ class complex {
         complex& operator/=(complex);
 
         complex operator+(complex a) {return complex(*this)+=a;}
+        complex operator/(complex a) {return complex(*this)/=a;}
+
+        bool operator==(const complex& b) const
+        {
+            return re==b.re && im==b.im;
+        }
 };
+
+complex operator/(complex a, complex b) { return a/= b;}
+
+void f(complex z)
+{
+    complex a {2.3};
+    complex b {1/a};
+}
