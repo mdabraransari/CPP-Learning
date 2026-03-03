@@ -28,4 +28,6 @@ void print_book(const vector<Entry>& book)
 }
 int main(){
     print_book(phone_book);
+    vector<int> v1 = {1,2,3,4,5};
+    cout << v1[1];
 }
