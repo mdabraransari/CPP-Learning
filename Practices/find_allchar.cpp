@@ -26,7 +26,7 @@ void test()
         cout << "  position=" << (it - m.begin()) << ", char='" << *it << "'\n";
     }
     for(auto p: res)
-        if(*p!=target)
+        if(*p!=target) 
            cerr << "a bug!\n";
 }
 
