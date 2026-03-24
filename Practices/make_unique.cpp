@@ -17,7 +17,7 @@ class Student {
 };
 
 int main(){
-    auto students = make_unique<Student[]>(5);
+    unique_ptr<Student[]> students = make_unique<Student[]>(5);
 
     students[0].name = "Aman";
     students[1].name = "Priya";
