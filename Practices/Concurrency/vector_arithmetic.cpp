@@ -10,7 +10,8 @@ int main(){
     for(int i = 0; i < a.size(); i++){
         c[i] = a[i] + b[i];
     }
+     cout << "Added Numbers\n ";
 
     for(int x: c)
-       cout << x << " ";
+       cout <<  x << " ";
 }
