@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+// Does not modify data
+//only plays with pointer 
 
 void f(char c, signed char sc, unsigned char uc){
     char* pc = reinterpret_cast<char*>(&uc);
