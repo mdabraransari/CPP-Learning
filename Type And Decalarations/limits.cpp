@@ -5,6 +5,7 @@ using namespace std;
 
 int main(){
     cout << boolalpha;
+    cout << "##size of Types##" << endl;
 
     cout << "size of long " << sizeof(1L)<< '\n';
     cout << "size of long long " << sizeof(1LL) << '\n';
