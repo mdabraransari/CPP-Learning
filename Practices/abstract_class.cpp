@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+// abstract use as a blueprint for other classe.
 
 class Container {
     public:
