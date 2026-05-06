@@ -11,13 +11,16 @@ using MyAdder = Add;
 
 typedef int Integer;
 using Decimal = float;
+using Character = char;
 int main() 
 {
     Integer x = 10;
     cout << x << endl;
     Decimal y = 22;
-    cout << y;
+    cout << y << endl;
     MyAdder obj;
-    cout << obj(2,3);
+    cout << obj(2,3) << endl;
+    Character a = 'd';
+    cout << a;
     return 0;
 }
