@@ -52,5 +52,6 @@ bool accept2(){
     return false;
 }
 int main(){
+    accept();
     accept2();
 }
