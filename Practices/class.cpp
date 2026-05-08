@@ -6,14 +6,14 @@ class Vector
 private:
     int sz;
     double& operator[](int i) { return elem[i]; }
-    int size() {return sz;}
+
 public:
     double* elem;
     Vector(int s)
-        :elem{new double[s]}, sz{s} 
+        :elem{new double[s]}, sz{s}
         {
-            
         }
+    int size() const { return sz; }
 };
 
 
@@ -27,5 +27,6 @@ int main() {
         cout << v.elem[i] << " ";
     }
     cout << endl;
+    cout << v.size();
    return 0;
 }
