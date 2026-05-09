@@ -13,6 +13,7 @@ class GFG {
 int main (){
     GFG a;
     a.val = 10;
+    a.val = 50;
     a.show();
     return 0;
 }
