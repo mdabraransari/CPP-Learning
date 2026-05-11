@@ -30,4 +30,5 @@ void f(complex z)
 {
     complex a {2.3};
     complex b {1/a};
+    complex c {-2};
 }
