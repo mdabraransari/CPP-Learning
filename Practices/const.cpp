@@ -15,6 +15,7 @@ int main() {
    cout << max1;
 //    constexpr double max2 = 1.4*square(var); // error 
    const double max3 = 1.4*square(var); // runtime
+   cout << "\n" << max3;
 
 
    return 0;
