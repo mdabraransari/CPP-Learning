@@ -17,5 +17,5 @@ int main() {
     Student s1(20);
     Student s2 = s1;
 
-    cout << s2.age;
+    cout << s2.age << endl;
 }
