@@ -16,7 +16,8 @@ int main(){
     vector<pair<string,int>> k = {
         {"A", 10},
         {"B", 25},
-        {"C", 15}
+        {"C", 15},
+        {"D", 21}
     };
     int d = count_if(k.begin(),k.end(), [](pair<string,int> p){
         return p.second > 12;
