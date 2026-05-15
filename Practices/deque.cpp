@@ -9,6 +9,7 @@ int main() {
    
    d.push_back(10);
    d.push_front(20);
+   d.push_front(30);
 
    for(int x: d)
        cout << x << " ";
