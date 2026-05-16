@@ -2,6 +2,7 @@
 enum class Color
 {
     red,
+    orange,
     blue,
     green
 };
