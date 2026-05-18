@@ -9,5 +9,6 @@ int main() {
    // flush 
    cout << "Processing....." << endl;
    sleep(4);
+   cout << "done";
    return 0;
 }
