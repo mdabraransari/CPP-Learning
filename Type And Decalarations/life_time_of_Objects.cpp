@@ -29,6 +29,7 @@ void functionExample(){
 }
 
 int main(){
+    cout << "Lifetime of Objects"
     cout << "Program started\n" << endl;
     functionExample();
     cout <<"Calling function again...\n" << endl;
