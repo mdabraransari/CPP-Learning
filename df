@@ -1,0 +1,879 @@
+[33mcommit 3356d0f2419758eb42c624d1aa400a5044a2d4e1[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Jun 3 20:26:11 2026 +0530
+
+    const and pointer
+
+[33mcommit d1e4852fd42b5128f6a38286274ba78b22dedfbd[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Jun 3 12:57:43 2026 +0530
+
+    fixed the error in  file
+
+[33mcommit 074b887612fbcab0d9fec54f050bcc3d08f4b496[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Jun 3 12:55:00 2026 +0530
+
+    Two related meanings of "constant"
+    >> constexpr: Evaluate at compile time
+    >> const: Do not modify in this scope
+
+[33mcommit e8310d095b64dbacbac2da8cf8314bfddc0f200c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Jun 2 18:47:23 2026 +0530
+
+    passing array
+
+[33mcommit 9026e9dff3a69499aac86768395200d4b0eadd56[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Jun 2 16:26:19 2026 +0530
+
+    Two-dimensional Array
+
+[33mcommit 79604b95c84855a7a6b43dec0b361aa5c0ae1902[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Jun 1 19:07:50 2026 +0530
+
+    Pointer into Arrays::
+    int v[] = {1,2,3,4};
+    int* p1 = v;// points to initial element Implicit
+    int* p2 = &v[0];// points to intial element
+    int* p3 = v + 4;// points to one-beyond-last element
+    
+    **Subtraction of pointers is defined only when both pointers points to
+    elements of the same array;
+    ***q-p the result is the number of arrays elements in the sequence[p:q)
+
+[33mcommit 4436b86787e2a3372cecea1eb9d1fc2f4733b474[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Jun 1 18:15:43 2026 +0530
+
+    utf-8 ---> u8"text";
+    utf-16 ---> u16string s = u"Hello emoji";
+    utf-32 ---> u32string s = U"Hello emoji";
+
+[33mcommit a96ff757411895d5a4dd9c2c0d9d6e39b595342c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Jun 1 18:01:12 2026 +0530
+
+    utf-8:Unicode Transformation Format
+
+[33mcommit c2ddff39ca9ec6de4d399714266a118ecd9a5346[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun May 31 17:50:38 2026 +0530
+
+    wchar_t :- string of wide characters
+
+[33mcommit 06bf780c3cac8ecf54e027e75a2e9119863a241c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun May 31 17:33:26 2026 +0530
+
+    A Raw String Literal is a string literal where backslash is just a
+    backslash (and a double quote is just a double quote).
+
+[33mcommit c4241e420c13fa164a04dcb4d91e2a41c37cb95f[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun May 31 17:15:46 2026 +0530
+
+    Long strings can be broken by whitespaces to make the program text neater. The compiler will concatenate adjacenate strings
+
+[33mcommit 2236890465ecaae4b45b26604264794784055771[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat May 30 22:40:32 2026 +0530
+
+    changing type of variable
+
+[33mcommit bbbc3d8514a4a52a3c23c0c35b09c01a4e682387[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri May 29 22:26:37 2026 +0530
+
+    file modified:
+
+[33mcommit b86a93cdfa7835586795078f0420377464bbc8f4[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu May 28 22:20:51 2026 +0530
+
+    static_cast
+
+[33mcommit 9b1f823cbef60045a541510b2b76722aa6734dd1[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed May 27 23:12:59 2026 +0530
+
+    butterfly effect
+
+[33mcommit b3e01d12124678565535252434df61efd79dcf78[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue May 26 09:07:39 2026 +0530
+
+    hollow diamond pattern questions
+
+[33mcommit dd0781eb5b69db942e6932e1ff4fdc9d6adfc315[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue May 26 07:33:30 2026 +0530
+
+    type aliasese: Type and Decalaration is complete
+
+[33mcommit 9e62ca96b84cb1311918452e1950a9657efc342d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon May 25 23:51:41 2026 +0530
+
+    Lifetime of Objects modified
+
+[33mcommit 0623182187946574da6b99255c62ae21e1b88480[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun May 24 22:28:59 2026 +0530
+
+    Lifetime of Objects
+
+[33mcommit f734aafed5ebd7ad05750d86c57aaf0763fa4d3c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat May 23 23:05:07 2026 +0530
+
+    lvaule , rvalue , prvalue
+
+[33mcommit 05879d327510fd7960b56de88abbc3f18cc5407d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri May 22 22:21:49 2026 +0530
+
+    file modified
+
+[33mcommit aed9808b7ef7c7c1a26d293df8545cfca91df8cd[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri May 22 22:19:55 2026 +0530
+
+    sub function
+
+[33mcommit 504713b044c4c91917dcb2971a1ca7caf3e8b573[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu May 21 09:07:37 2026 +0530
+
+    intialization syntactic styles
+
+[33mcommit d8c3df77b39bcaa89a91bc2515508183ba1f6319[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed May 20 19:38:01 2026 +0530
+
+    Declaring Multiples names:
+    int * x, y; // int * x, int y
+    Scope:
+    A hidden global name can be reffered to using the scope resolution
+    operator ::
+
+[33mcommit 529634e0efc4cf21e0ca75266876abb3ecd69011[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed May 20 00:04:56 2026 +0530
+
+    Alignment: placing data in memory at addresses that are multiples of some value, usually data type's size or CPU preferred access width
+
+[33mcommit f32e97a2ee013516d37a242939182d1562f35c0b[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue May 19 23:11:34 2026 +0530
+
+    Arithmetic operations by classes:(Exams are over now, and I’m moving into my second year.)
+
+[33mcommit f157ffb5f46d98d44d2295cf00cbc3142cc5a56f[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon May 18 23:32:22 2026 +0530
+
+    flush
+
+[33mcommit 5d9078002cadf1d6ab3e14cd8f3fae9dc9f419aa[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun May 17 20:41:51 2026 +0530
+
+    exception handling
+
+[33mcommit b266ce9a5311d1371abbf1958af74f37be9652f2[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat May 16 22:04:58 2026 +0530
+
+    enum
+
+[33mcommit 1da22a929faec8bd3681db175fa96e8d34668dc3[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri May 15 22:11:17 2026 +0530
+
+    deque
+
+[33mcommit 0252422fb0702cb25fc5b50158e08683eb87d397[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu May 14 20:33:19 2026 +0530
+
+    file modified
+
+[33mcommit 2709ee027b3d748e8fb351932021c01318797c85[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed May 13 21:57:17 2026 +0530
+
+    copy constructor
+
+[33mcommit 37ce8d18c55bfde25ba721ffd67b2a3aedb4e8f6[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue May 12 20:43:29 2026 +0530
+
+    const and constexpr:evaluated at compile time
+
+[33mcommit 3d185d6c060b8ee2b1871f2169c3c1e7191428b9[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon May 11 22:58:47 2026 +0530
+
+    complex numbers
+
+[33mcommit 4daf253bf388369b5aaed1cd47ade2f9738a44b5[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun May 10 22:37:38 2026 +0530
+
+    file modified
+
+[33mcommit 001098234f639d48bf72a8f2ece8252e6283a6db[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat May 9 20:16:50 2026 +0530
+
+    class members access by dot .
+
+[33mcommit b6c6d36f70f051e388a725bd1c333567ead9ede8[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri May 8 23:26:55 2026 +0530
+
+    private members can't be accessed outside te class definition
+
+[33mcommit 2325141f5a809b15c79972d83338462ad446781f[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu May 7 19:29:08 2026 +0530
+
+    bool
+
+[33mcommit 86cd2a692dfea5092630824b3fe76fd7d90d86fc[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed May 6 08:05:28 2026 +0530
+
+    Aliases:- giving another to a existing entity
+
+[33mcommit d4b7ce38e51bed1f3313af1681af5e1569fa0afa[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue May 5 08:13:12 2026 +0530
+
+    algorithm function replace: replace(a.begin(),a.end(),num_to_replaced, replace_number);
+
+[33mcommit 04693edf092a12703a8ed75639d1a4908435f4c9[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon May 4 19:19:23 2026 +0530
+
+    abstract class revision
+
+[33mcommit 7b8aa284cc8186b73f00dfe88544c218658434a7[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun May 3 08:12:43 2026 +0530
+
+    size_t is an implementation-defined unsigned Integer types that can hold
+    the size in bytes of every Object.
+
+[33mcommit c423fd74717d7a927c20883f9c2eb60b453a37ea[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat May 2 06:59:22 2026 +0530
+
+    Specific Byte Size(int16_t, int64_t, int_least16_t, int_least32_t, int_fast32_t
+
+[33mcommit 46e7c63302cedc6752f306a2a2e33fa0c8073cfb[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri May 1 22:04:19 2026 +0530
+
+    file modified (exam are coming. So, looking to my previous codes)
+
+[33mcommit 06f5f3aaa479121f86d6ff1cbd38704e73ed2c24[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Apr 30 17:48:29 2026 +0530
+
+    limits
+
+[33mcommit 344eab17c6307a68806147893924c381099b3e0f[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Apr 29 13:08:44 2026 +0530
+
+    Number Guessing Game: With Beep sound, Get to know about <windows.h> header file
+
+[33mcommit 0365e10ae3abaf74a49a737ba3e226cce466e379[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Apr 28 09:23:32 2026 +0530
+
+    mt19937: It is a Mersenne Twister Engine(a fast pseudo-random generator)
+    It needs a seed to start generating number.
+    M. Matsumoto and T. Nishimura
+
+[33mcommit 6e30ec5a6be072920ac0305e579b867bacb3257a[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Apr 27 20:48:53 2026 +0530
+
+    hexadecimal
+
+[33mcommit 981da82de3e537c3d3b12346a1586c60f2b6bc2b[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Apr 26 22:06:03 2026 +0530
+
+    Int types
+
+[33mcommit f72cfd05d82f2f58032c594ca4af8f99b9076db6[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Apr 25 18:32:53 2026 +0530
+
+    Multi-Character literal
+    'ab'
+    it's type is int
+    This is from very earlier period, very old fashioned
+
+[33mcommit f4b9acbba4982530aadf132fc5c5e870799d84fd[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Apr 25 18:31:20 2026 +0530
+
+    Modified signed_char.cpp
+
+[33mcommit fb617753967593df24a732ad4b3517c68f2bcf1f[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Apr 24 22:26:16 2026 +0530
+
+    applied static_cast on classes
+
+[33mcommit 55cddb4f5e9da7ad7ad956e0eaa7ebc369ae3d7c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Apr 23 20:57:33 2026 +0530
+
+    signed_char
+
+[33mcommit b93567af3cd33f3ebe4f9fbaf6e205e3487f181c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Apr 22 18:22:02 2026 +0530
+
+    static_cast
+
+[33mcommit 5edb51dc088e14e4cb8d11fe99283cf5904d48b2[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Apr 21 19:33:04 2026 +0530
+
+    Character Types:-
+    The notation int{c} gives the interger value for a character 'c'.
+
+[33mcommit a18f287f5cdabc3d37bbd1a999cc50e23158c357[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Apr 20 19:01:31 2026 +0530
+
+    Boolean
+
+[33mcommit 2df59ce7038343a87088f2a518ce7906ba1b18ad[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Apr 19 13:55:08 2026 +0530
+
+    Hosted and Freestand Implementation
+
+[33mcommit 46ff99a596025efc0f86182da0ba646a84789946[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Apr 18 17:04:46 2026 +0530
+
+    Implemented Defined- Behaviour defined by the compiler/system , but it must be documented
+
+[33mcommit dfb609950a4fe26f3b95a7c9cebb1e067930ed9a[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Apr 18 16:45:52 2026 +0530
+
+    Proper folder Placement
+
+[33mcommit 953249d68954f85fe12fc8b56751f20247e6cb6b[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Apr 17 22:56:18 2026 +0530
+
+    Numeric Limits, static_assert
+
+[33mcommit 96231050176b667fad23d9dea3fe0ab507149e74[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Apr 16 19:43:11 2026 +0530
+
+    modified file
+
+[33mcommit a87130987660d840bcc42a056122365ce5dd4ff8[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Apr 15 19:36:05 2026 +0530
+
+    Vector Arithmetic
+
+[33mcommit 8b0eb0e42d30443b8da971de995b3d5c97b71d6d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Apr 14 21:01:16 2026 +0530
+
+    generate 200 random integers from 0 to 4, count them, and print the distribution.
+
+[33mcommit 2f333d79602c3377e5dad011ab4ae38ad4596ab4[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Apr 13 21:36:54 2026 +0530
+
+    A random number generator consists of two parts:-
+    [1] an engine that produces a sequence of random or pseudo-random
+    values.
+    [2] a distribution that maps those values into a mathematical
+    distribution in a range.
+    uniform_int_distribution , normal_distribution ( bell Curve) ,
+    exponential_distribution.
+
+[33mcommit 8e16f0c358db290c7cba44ece84a7c8a64a945c6[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Apr 12 22:31:29 2026 +0530
+
+    :
+
+[33mcommit 3835b2362d84f0378f50c6266bd90fcea2e09471[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Apr 11 21:40:22 2026 +0530
+
+    Random Number generator in CPP
+
+[33mcommit c0e66f96782e9668db6a7cdf54ddd25b1dd2a087[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Apr 10 21:14:57 2026 +0530
+
+    New file added
+
+[33mcommit dcfdfeaf5b0bde2219618209a80b7b98414151e8[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Apr 9 21:59:09 2026 +0530
+
+    regex_replace
+
+[33mcommit 91a213bf7973b3f29529e45f2f9b9f884c070cb2[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Apr 8 23:06:33 2026 +0530
+
+    Regular Expression - regex (pattern matching in string)
+
+[33mcommit cd79cb76171f8b78fd4588a538906f4da77b6cb7[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Apr 7 20:55:31 2026 +0530
+
+    Pair and Tuples
+
+[33mcommit c927b6b192161da4367082d50dfe67f93acd2d86[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Apr 6 19:33:22 2026 +0530
+
+    Type Predicates
+
+[33mcommit 846008f8d3d74206118ac12c08e37fffeaf36667[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Apr 5 20:28:09 2026 +0530
+
+    constexpr :- evaluated at runtime
+
+[33mcommit 49303abb4642a755a0f42d01066a62be44687a64[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Apr 4 18:27:41 2026 +0530
+
+    iterator_traits:- different iterators support different operations
+
+[33mcommit 91127096f2a7343b9f3ef60128dd811d184e549e[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Apr 3 23:15:00 2026 +0530
+
+    Type function
+
+[33mcommit 40bf8ef5bb80986911e7d949727b94120f429789[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Apr 2 20:58:26 2026 +0530
+
+    async function template
+
+[33mcommit ff69ab1ef735a5b333de6b3f3cf770f4d3dd1571[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Apr 2 20:47:40 2026 +0530
+
+    FizzBuzz Problem(Previously did in javascript)
+
+[33mcommit b88f2fcfa731165991eaab6856b8a7d2f4719792[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Apr 1 14:51:37 2026 +0530
+
+    std::packaged_task
+
+[33mcommit b79ffdaac7e2135aaa3d06799f4a4bca271e231a[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Mar 31 21:33:11 2026 +0530
+
+    Future and Promise
+
+[33mcommit d28d3eccaa8567ef34b8d54ade232d09cd5854d2[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Mar 30 21:44:55 2026 +0530
+
+    Queue Intro
+
+[33mcommit 5505fe5cc8e90c11555e7cd8c4f22aa8fe5681b0[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Mar 29 21:53:37 2026 +0530
+
+    waiting for events
+
+[33mcommit 910ded63efb0bfd4c259f10e162b97c9450376d1[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Mar 28 17:13:37 2026 +0530
+
+    Dead lock Situation:- Intro to defer_lock , Understood join function
+
+[33mcommit cd599825c7867d1787e9cd53e5c166d856bf6efa[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Mar 27 19:17:33 2026 +0530
+
+    Task and Thread
+
+[33mcommit 8c8816efd5aedffc54eeb3630d73f16219ca3f37[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Mar 26 20:22:11 2026 +0530
+
+    Race condition
+
+[33mcommit c80ab7022579614d50210d70e8f6f828ff309236[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Mar 25 22:32:47 2026 +0530
+
+    Concurrency Starts here
+
+[33mcommit 11738c449e8df210471b9ee61ef2429ed11b0a1e[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Mar 24 20:06:53 2026 +0530
+
+    shared_ptr
+
+[33mcommit bd2d6e1dc901c40fcd9b42cf83d14a492d01eb6f[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Mar 23 20:20:48 2026 +0530
+
+    unique_ptr && make_unique
+
+[33mcommit bef445b49d814f218f4603576b238e4e4a3826b9[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Mar 22 22:49:10 2026 +0530
+
+    Thread and Mutex
+
+[33mcommit 7a838d3a71d19cf578da47e51660493336be1920[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Mar 20 21:52:35 2026 +0530
+
+    replace_if function
+
+[33mcommit 9b1e566904529d74ca460b2340012d0d69df0f2c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Mar 19 22:09:09 2026 +0530
+
+    Replace method of STL Algorithm
+
+[33mcommit 77ec3a99ea3bf548fa60f5899fadfd2662f9f828[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Mar 17 18:05:23 2026 +0530
+
+    count_if algorithm
+
+[33mcommit bacf2300d8141145580f74e87c6b1ad1eb2dbeb4[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Mar 16 18:16:15 2026 +0530
+
+    Predicates
+
+[33mcommit 9633d56e6628339ad86a015773451c759eeb7d6d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Mar 15 18:26:37 2026 +0530
+
+    Set Intro
+
+[33mcommit 004d304bcab5392599a8f56635c8fe84ceace82d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Mar 14 22:45:55 2026 +0530
+
+    Deque intro
+
+[33mcommit ea9b35d577aef88e3a0016319ef0ca984c587dd5[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Mar 13 21:54:05 2026 +0530
+
+    ifstream & ofstream
+
+[33mcommit 4a8780eaf93bb211607fb5adc7c64b3c917ddf7e[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Mar 12 20:23:08 2026 +0530
+
+    New file added:
+
+[33mcommit b259babf7a6ff57dc4f471eda77f6d072628a02c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Mar 12 20:19:30 2026 +0530
+
+    Output Iterator
+
+[33mcommit 877179b204116cfbd7da777ec1b6d559cca093be[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Mar 11 23:30:13 2026 +0530
+
+    Input Iterators
+
+[33mcommit c8c647fcc70f6a089f666b6c46674d44a3e11276[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Mar 11 23:15:46 2026 +0530
+
+    file modifies
+
+[33mcommit 40495a21518b2f5abce9cc453940a15a9fa16692[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Mar 9 21:32:14 2026 +0530
+
+    New file added
+
+[33mcommit cd4bae3c169f68a2e0707d95cc6f9b4932855921[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Mar 8 18:01:39 2026 +0530
+
+    find() function
+
+[33mcommit 0e757ab16d2daa0749195355de535aff0abd5571[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Mar 7 22:15:00 2026 +0530
+
+    Sorting Without Duplicates Program
+
+[33mcommit d99918a5b8f9962195baacf9c77c5cc6e9e84c01[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Mar 6 20:29:16 2026 +0530
+
+    STL Algorthim function , iterators
+
+[33mcommit 054e5a5f023b5c6e15c5c08d9c5feffbf0471e2b[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Mar 5 17:54:23 2026 +0530
+
+    unordered_map & Hash-Table Intro
+
+[33mcommit 79802870dae5159e74f1c793c01acab4121dd629[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Mar 4 20:20:16 2026 +0530
+
+    Map Intro
+
+[33mcommit b3bbf1fb32c5ccc144690c01dd73e2273b776dc1[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Mar 3 19:25:09 2026 +0530
+
+    New file Added
+
+[33mcommit 412a772f74fc144b3774cf2acf35e1b800eb9c9d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Mar 2 21:24:00 2026 +0530
+
+    New file added
+
+[33mcommit 1904e4494ffe0d7f91bb0f70468dd4968c75f5a7[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Feb 28 19:33:42 2026 +0530
+
+    Stream Extraction Operator
+
+[33mcommit 2265d42811d7b60793f3a0f563d37faef19fccba[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Feb 27 23:28:11 2026 +0530
+
+    User defined I/O types Intro
+
+[33mcommit 579844a31b2c8681b366fcf1f7817057122838ca[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Feb 26 19:22:55 2026 +0530
+
+    I/O stream
+
+[33mcommit 3218bca0787adc3bdbfacc2d0703f3e34a962ed5[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Feb 25 23:02:16 2026 +0530
+
+    String Concatenation
+
+[33mcommit 1ade69c6c6891eb78699ef2818b4c4e213937f2d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Feb 24 17:49:07 2026 +0530
+
+    standard list header
+
+[33mcommit 93806fefd8249d5ed1c6e412d999174f846fec9c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Feb 23 17:56:09 2026 +0530
+
+    Aliases
+
+[33mcommit f56b42c7b4bb8060c45df794ad9f8296e1626fb2[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Feb 22 18:15:12 2026 +0530
+
+    Function Object and Variadic Templates
+
+[33mcommit 99553c4c9f408920dfa6f63ba57616af394440eb[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Feb 21 17:55:35 2026 +0530
+
+    Parameterized Types & Function Templates
+
+[33mcommit 578e35dc28d3b886917765b4d8a5aee0b821a255[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Feb 20 19:41:59 2026 +0530
+
+    Suppressing Operator
+
+[33mcommit aa563dc3c58fe28cf25e1f7a4d2865eeedb77058[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Feb 19 19:13:09 2026 +0530
+
+    R and L value
+
+[33mcommit baa4308d8b709c18ef3041361b035e4ef3460c91[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Feb 18 19:51:39 2026 +0530
+
+    Copy Constructor and Copy Assignment Operator
+
+[33mcommit 086a414115ce03c246d2c05a155f0516a286e631[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Feb 14 10:37:28 2026 +0530
+
+    Interface example
+
+[33mcommit e682684fb946c8b23360afc0ac598e7e69842425[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Feb 13 23:48:59 2026 +0530
+
+    New file added
+
+[33mcommit dae0f5c11a7ebd78690003d3f863ec2f1df197e0[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Feb 12 23:46:02 2026 +0530
+
+    Virtual function
+
+[33mcommit a10eb7cb766f413e7225766960caa58700982ab4[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Feb 11 23:40:52 2026 +0530
+
+    new file added
+
+[33mcommit ff0a52645a42b1267feb015adfef7cf08a2c488b[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Feb 8 23:32:56 2026 +0530
+
+    New file added
+
+[33mcommit 96ae45b74fc6f223eab55f98116428a10b02298c[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Feb 7 21:19:08 2026 +0530
+
+    Destructor and Abstract Classes
+
+[33mcommit 83fc6142d5d0da8a542040fecff82982f159cfe3[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Feb 6 23:34:47 2026 +0530
+
+    New file added
+
+[33mcommit 766484b1557232df847e8aa5eefe8f392aea5dc7[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Thu Feb 5 23:43:28 2026 +0530
+
+    concrete classes arithmatic type
+
+[33mcommit c384dc2f201e9255bbe146b3ff61200fff58c9b0[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Feb 4 23:20:55 2026 +0530
+
+    new file added
+
+[33mcommit 9bfde8a9b5d4db3a07f989d95b72d2b86a1cf79b[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Feb 3 20:00:20 2026 +0530
+
+    Static assertions
+
+[33mcommit 3285df178c22848e2d28424b6cd04e1c8680a3f1[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Feb 2 23:51:49 2026 +0530
+
+    Exception , Invariants , Namespaces Intro
+
+[33mcommit 80727b724d815de501668ca49833b18e1ded090f[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Jan 31 21:33:48 2026 +0530
+
+    Instance and Implementation , Modularity , Separate Compilation
+
+[33mcommit d5f929ab6e66a8f893ed33768be5139910264f2e[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Fri Jan 30 20:11:26 2026 +0530
+
+    Enumeration Introduced
+
+[33mcommit 6cd2dcaa01f4c0f22a2cf525e246f3d5550c35ae[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Jan 28 23:35:40 2026 +0530
+
+    Modified class
+
+[33mcommit c66f59a12e74c240f699850e564984e3ab1322cc[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Jan 27 21:09:44 2026 +0530
+
+    Struct , new Intro
+
+[33mcommit 709da68ba31eb5ab7c8d5886b6fce14c7033680d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Jan 26 20:00:21 2026 +0530
+
+    Array Decays to Pointer in a Function Call
+
+[33mcommit e5629fd7c8755ca5d25e72a80b81a8e9dfeb0457[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Wed Jan 21 23:34:29 2026 +0530
+
+    Add a new file
+
+[33mcommit 4ee7734e70a2b3765bc5b46c6545cbc719bf9739[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Tue Jan 20 23:33:33 2026 +0530
+
+    Class basic definition
+
+[33mcommit 67516eed424c95a74777e3b4ada934e7bf569cce[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Mon Jan 19 17:32:58 2026 +0530
+
+    constexpr and bool
+
+[33mcommit 3161c034d125fe82641f185ae986074840dbe38d[m
+Merge: 0db1a3f 54c1902
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Jan 18 17:25:21 2026 +0530
+
+    Merge branch 'main' of https://github.com/mdabraransari/CPP-Learning
+    merging the main and master
+
+[33mcommit 0db1a3fc8e8730fbbc33243d20a700bf02911c7d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sun Jan 18 16:57:37 2026 +0530
+
+    Intro to Vector, Complex , Limit
+
+[33mcommit 256a7c6c8ae42fd50654a656a78244b9188be140[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Jan 17 17:21:45 2026 +0530
+
+    print in CPP
+
+[33mcommit 54c1902c5cb3fd9f2ae0ef033c00994c03b77c35[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Jan 17 16:46:14 2026 +0530
+
+    Enhance README with subtitle and image
+    
+    Added a subtitle and image to the README.
+
+[33mcommit 568fe51ab196fcf3f40a1afa32e3a11559db886d[m
+Author: Md Abrar Ansari <mdabraransari101@gmail.com>
+Date:   Sat Jan 17 16:36:25 2026 +0530
+
+    Initial commit
