@@ -43,6 +43,7 @@ int main()
 
     int target = 26;
     vector<int> ans =  pair_Sum(nums, target);
+    cout << "Two indexes are: " << endl;
     cout << ans[0] << ", " << ans[1] << endl;
 
     return 0;
