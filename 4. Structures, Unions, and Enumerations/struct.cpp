@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 //struct is an aggregate of elements of arbitrary type.
 struct Address
 {
@@ -20,3 +22,13 @@ Address jd = {
     "New Providence", 
     {'N','J'}, "07974"
 };
+void print_addr(Address* p){
+    cout << p->name << '\n'
+         << p->number << ' ' << p->street << '\n'
+         << p->town << '\n'
+         << p->state[0] << p->state[1] << ' ' << p-> zip << '\n';
+
+}
+int main(){
+    print_addr(&jd);
+}
