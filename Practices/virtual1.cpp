@@ -29,7 +29,8 @@ int main()
 {
     Animal *a = new Dog();
 
-    a->speak(); // Dog barks
+    cout << a->speak() << endl; // Dog barks
+    
 
     delete a;
 }
