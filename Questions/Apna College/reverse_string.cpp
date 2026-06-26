@@ -1,7 +1,10 @@
 #include <iostream>
 #include <string>
+#
 using namespace std;
+string reverse_string(string str){
 
+}
 int main() {
     string s;
 
