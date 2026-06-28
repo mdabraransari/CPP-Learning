@@ -1,9 +1,13 @@
 #include <iostream>
 #include <string>
-#
-using namespace std;
-string reverse_string(string str){
+#include <vector>
+#include <algorithm>
 
+using namespace std;
+string reverse_string(vector<string>& str){
+
+    
+           
 }
 int main() {
     string s;
