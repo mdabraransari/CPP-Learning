@@ -1,15 +1,17 @@
 #include <iostream>
+#include <algorithm>
+using namespace std;
 
 int main()
 {
-    int count = 0;
+    int i = 1;
 
-repeat:
-    std::cout << count << '\n';
-    ++count;
-
-    if (count < 3) {
-        goto repeat;
+start:
+    if (i <= 5)
+    {
+        printf("%d\n", i);
+        i++;
+        goto start;
     }
 
     return 0;
